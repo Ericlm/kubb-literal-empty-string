@@ -5,7 +5,7 @@ export default defineConfig(() => {
     root: '.',
 
     input: {
-      path: './petStore.yaml',
+      path: './petStore.json',
     },
 
     output: {
