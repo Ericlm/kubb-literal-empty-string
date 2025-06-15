@@ -1,4 +1,5 @@
 import { defineConfig } from '@kubb/core'
+import { pluginOas } from '@kubb/plugin-oas'
 
 export default defineConfig(() => {
   return {
@@ -12,6 +13,8 @@ export default defineConfig(() => {
       path: './src/gen',
     },
 
-    plugins: [],
+    plugins: [
+      pluginOas(),
+    ],
   }
 })

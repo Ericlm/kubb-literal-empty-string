@@ -14,6 +14,7 @@
   "devDependencies": {
     "@kubb/cli": "^3.10.15",
     "@kubb/core": "^3.10.15",
+    "@kubb/plugin-oas": "^3.10.15",
     "typescript": "^5.8.3"
   }
 }
