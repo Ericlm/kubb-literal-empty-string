@@ -1,0 +1,19 @@
+{
+  "name": "kubb-literal-empty-string",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "generate": "kubb generate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@kubb/cli": "^3.10.15",
+    "@kubb/core": "^3.10.15",
+    "typescript": "^5.8.3"
+  }
+}
