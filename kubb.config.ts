@@ -1,5 +1,6 @@
 import { defineConfig } from '@kubb/core'
 import { pluginOas } from '@kubb/plugin-oas'
+import { pluginTs } from '@kubb/plugin-ts'
 
 export default defineConfig(() => {
   return {
@@ -15,6 +16,7 @@ export default defineConfig(() => {
 
     plugins: [
       pluginOas(),
+      pluginTs()
     ],
   }
 })
